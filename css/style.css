@@ -4,16 +4,44 @@ html {
 
 body {
     height: 100%;
+    color: #ffe1f3;
+    background-color: black;
     
+}
+.header {
+    font-family: 'KJV1611Regular';
+    letter-spacing: 2px;
+    font-size: 70px;
+    display:flex;
+    justify-content: center;
 }
 a {
     text-decoration: none;
+    color: #ffe1f3;
 }
 
 .main {
     height: 100%;
+    display:flex;
+    justify-content:space-around;
+    padding: 10px;
+    border-radius: 100%;
+    background-color:pink;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'KJV1611Regular';
+    color:pink;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
 }
