@@ -25,8 +25,10 @@ a {
     display:flex;
     justify-content:space-around;
     padding: 10px;
-    border-radius: 100%;
+    border-radius: 200%;
     background-color:pink;
+    margin: 10px;
+    color:black;
 }
 .social-image{
     width: 30px;
@@ -44,4 +46,24 @@ a {
 .footer {
     display:flex;
     justify-content:center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'KJV1611Regular';
+    color:pink;
+}
+.gallery {
+    display:flex;
+    border-radius:100px;
+    
+}
+.thumbnail {
+    justify-content:space-around;
+    border:red 5px dotted;
+    margin:10px;
+    max-width: 35vw;
+    max-height: 35vh;
 }
