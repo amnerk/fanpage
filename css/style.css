@@ -60,18 +60,14 @@ a {
     font-family: 'KJV1611Regular';
     color:pink;
 }
-.gallery {
-    display:flex;
-    border-radius:100px;
-    
+
+.thumbnail-image {
+   max-width: 35vw;
+    max-height: 35vh;
+    cursor: pointer;
 }
-.thumbnail {
-    display:flex;
-    justify-content:space-around;
-    border:red 5px dotted;
-    margin:10px;
-    width:40px;
-}
+
+
 
 .some {
      font-family: 'SpaceMeatballRegular'; 
@@ -87,3 +83,14 @@ a {
      font-size: 25px;
      color:white;
     }
+    
+.footer1 {
+    bottom: 0%;
+    position: fixed;
+    display:flex;
+    justify-content:center;
+}
+.socialimage{
+    width: 30px;
+    margin: 15px;
+}
